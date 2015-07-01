@@ -3,14 +3,16 @@
 <head>
     <title>AngularJS Tutorials - Directive talk to Controller</title>
     <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
-    <script type="text/javascript" src="libs/mainDirToCont.js"></script>
+    <script type="text/javascript" src="libs/mainDirToDir.js"></script>
     <link rel="stylesheet" href="css/foundation.min.css"/>
 </head>
 <body>
- <div ng-app="twitterApp">
-     <div ng-controller="AppCtrl">
-         <div enter="loadMoreTweets()" leave="deleteTweets()">Roll over here</div>
-     </div>
- </div>
+
+<div ng-app="superApp">
+    <superhero strenght class="speed" flight>Superman</superhero>
+    <superhero class="speed">The Flash</superhero>
+    <superhero strenght>The Hulk</superhero>
+</div>
+
 </body>
 </html>
