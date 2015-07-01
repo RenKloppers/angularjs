@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Tutorials - Isolate Scope Review</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/mainIsolateRev.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+</head>
+<body>
+
+<div ng-app="phoneApp">
+    <div ng-controller="AppCtrl">
+        <phone number="555-1234" network="network" make-call="leaveVoiceMail(number, message)"></phone>
+        <phone number="123-1234" network="network" make-call="leaveVoiceMail(number, message)"></phone>
+        <phone number="1111" network="network" make-call="leaveVoiceMailHome(number, message)"></phone>
+    </div>
+</div>
+
+</body>
+</html>
