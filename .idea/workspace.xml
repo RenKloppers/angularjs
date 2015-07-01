@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6dfc2b1-44ec-4280-8dcd-9ea7122e8153" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_example/libs/mainDirToBeh.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic_example/directive_talk_to_controller.html" afterPath="$PROJECT_DIR$/basic_example/directive_talk_to_controller.html" />
-    </list>
+    <list default="true" id="f6dfc2b1-44ec-4280-8dcd-9ea7122e8153" name="Default" comment="" />
     <ignored path="angularjs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="directive_talk_to_directive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_example/directive_talk_to_directive.html">
+      <file leaf-file-name="isolate_scope.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic_example/isolate_scope.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.3353204">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainDirToDir.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic_example/libs/mainDirToDir.js">
+      <file leaf-file-name="mainIsolate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_example/libs/mainIsolate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4388489">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -97,6 +94,8 @@
         <option value="$PROJECT_DIR$/basic_example/directive_talk_to_controller.html" />
         <option value="$PROJECT_DIR$/basic_example/libs/mainDirToDir.js" />
         <option value="$PROJECT_DIR$/basic_example/directive_talk_to_directive.html" />
+        <option value="$PROJECT_DIR$/basic_example/isolate_scope.html" />
+        <option value="$PROJECT_DIR$/basic_example/libs/mainIsolate.js" />
       </list>
     </option>
   </component>
@@ -324,22 +323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_example/testing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic_example/libs/mainSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -709,18 +692,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainDirToDir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2086331">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic_example/directive_talk_to_directive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
+        <state vertical-scroll-proportion="0.3800298">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainDirToDir.js">
+    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainIsolate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4388489">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/isolate_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3353204">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
