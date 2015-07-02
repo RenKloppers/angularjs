@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Tutorials - TemplateUrl</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/mainTemplateUrl.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+</head>
+<body>
+
+<div ng-app="app">
+    <script type="text/ng-template" id="zippy.html">
+        <div><h3 ng-click="toggleContent()">{{title}}</h3>
+            <div ng-show="isContentVisible" ng-transclude></div>
+        </div>
+    </script>
+    <input type="text" ng-model="model.title"/>
+    <input type="text" ng-model="model.content"/>
+    <zippy title="{{model.title}}">
+        This content is: {{model.content}}
+    </zippy>
+</div>
+
+
+</body>
+</html>
