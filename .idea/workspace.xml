@@ -21,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="angular.element.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_example/angular.element.html">
+      <file leaf-file-name="$scope_vs_scope.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_example/$scope_vs_scope.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainElem.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic_example/libs/mainElem.js">
+      <file leaf-file-name="mainScope.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic_example/libs/mainScope.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34632036">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47619048">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -57,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/basic example/testing.html" />
         <option value="$PROJECT_DIR$/basic example/js/main.js" />
         <option value="$PROJECT_DIR$/basic example/js/mainSpec.js" />
         <option value="$PROJECT_DIR$/basic_example/js/mainSpec.js" />
@@ -108,6 +106,8 @@
         <option value="$PROJECT_DIR$/basic_example/libs/mainZippy.js" />
         <option value="$PROJECT_DIR$/basic_example/angular.element.html" />
         <option value="$PROJECT_DIR$/basic_example/libs/mainElem.js" />
+        <option value="$PROJECT_DIR$/basic_example/$scope_vs_scope.html" />
+        <option value="$PROJECT_DIR$/basic_example/libs/mainScope.js" />
       </list>
     </option>
   </component>
@@ -353,20 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/karma/lib/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33088234">
-          <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/karma/lib/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33088234">
-          <caret line="278" column="19" selection-start-line="278" selection-start-column="19" selection-end-line="278" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/js-karma/js_reporter/karma-intellij/lib/intellij.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3313433">
@@ -696,16 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_example/libs/mainZippy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.19480519">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021645023">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -718,18 +696,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainElem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34632036">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic_example/angular.element.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.24663678">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainElem.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34632036">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.2207208">
+          <caret line="2289" column="15" selection-start-line="2289" selection-start-column="2" selection-end-line="2289" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/$scope_vs_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainScope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
