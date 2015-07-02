@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Tutorials - Building Zippy</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/mainZippy.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+</head>
+<body>
+
+<div ng-app="app">
+    <input type="text" ng-model="model.title"/>
+    <input type="text" ng-model="model.content"/>
+    <zippy title="{{model.title}}">
+        This content is: {{model.content}}
+    </zippy>
+</div>
+
+</body>
+</html>
