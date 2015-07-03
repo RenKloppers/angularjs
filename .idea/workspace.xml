@@ -21,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resolve_conventions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_example/resolve_conventions.html">
+      <file leaf-file-name="resolve_$routeChangeError.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_example/resolve_$routeChangeError.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainResolveConv.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic_example/libs/mainResolveConv.js">
+      <file leaf-file-name="mainRouteError.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic_example/libs/mainRouteError.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5419075">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.8265896">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic_example/first_directive.html" />
-        <option value="$PROJECT_DIR$/basic_example/libs/mainDirRes.js" />
         <option value="$PROJECT_DIR$/basic_example/directive_restrictions.html" />
         <option value="$PROJECT_DIR$/basic_example/basic_behaviours.html" />
         <option value="$PROJECT_DIR$/basic_example/libs/mainDirBeh.js" />
@@ -109,6 +107,8 @@
         <option value="$PROJECT_DIR$/basic_example/libs/mainResolve.js" />
         <option value="$PROJECT_DIR$/basic_example/resolve_conventions.html" />
         <option value="$PROJECT_DIR$/basic_example/libs/mainResolveConv.js" />
+        <option value="$PROJECT_DIR$/basic_example/resolve_$routeChangeError.html" />
+        <option value="$PROJECT_DIR$/basic_example/libs/mainRouteError.js" />
       </list>
     </option>
   </component>
@@ -355,20 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic_example/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4753172">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainDirUseBeh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38081804">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic_example/useful_behaviours.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2189781">
@@ -708,18 +694,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainResolveConv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5419075">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic_example/resolve_conventions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
+        <state vertical-scroll-proportion="0.17964073">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainResolveConv.js">
+    <entry file="file://$PROJECT_DIR$/basic_example/resolve_$routeChangeError.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5419075">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_example/libs/mainRouteError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8265896">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
