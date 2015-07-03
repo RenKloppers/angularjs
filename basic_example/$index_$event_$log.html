@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Tutorials - $index $event $log</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/mainDebugger.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+</head>
+<body>
+
+<div ng-app="app" ng-controller="foo">
+
+    <div class="button" ng-repeat="item in ['D','E','M','O']" ng-click="myFunc(ev = $event)">
+        {{$index + 1}}.<br>
+        {{item}}<br>
+        x = {{ev.pageX}}<br>
+        y = {{ev.pageY}}
+    </div>
+
+</div>
+
+</body>
+</html>
