@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Tutorials - Controller as syntax</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/mainContSyn.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+</head>
+<body style="padding: 20px 20px;">
+
+<div ng-app="app" ng-controller="RoomCtrl as room">
+
+    <div class="button" ng-click="room.openDoor()">
+        {{room.buttonTitle}}
+    </div>
+
+    <h3 class="panel" >{{room.buttonTitleText}}</h3>
+
+    <div ng-controller="OtherCtrl as other">
+        <div class="button" ng-click="other.fooFunc()">
+            {{room.foo}}
+            {{other.foo}}
+        </div>
+        <h3 class="panel" >{{other.fooText}}</h3>
+    </div>
+</div>
+
+</body>
+</html>
