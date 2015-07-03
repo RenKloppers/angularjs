@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Tutorials - Injector</title>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="libs/mainCompCont.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+</head>
+<body>
+
+<div ng-app="app">
+
+    <br>
+    <clock timezone="MST"></clock>
+    <br/>
+
+    <panel title="Clock Title">
+        <clock timezone="GMT"></clock>
+    </panel>
+
+    <br/>
+    <panel title="New Clock Title">
+        <clock timezone="GMT"></clock>
+        <clock timezone="PST"></clock>
+        <clock timezone="GMT+2"></clock>
+    </panel>
+</div>
+
+</body>
+</html>
